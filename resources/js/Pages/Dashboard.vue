@@ -12,7 +12,7 @@ const searchWeather = async () => {
         isLoading.value = true;
         const apiKey = "3babffdc944f53958bb905aa1bb81873";
         const response = await fetch(
-            `https://api.openweathermap.org/data/2.5/weather?q=${searchCity.value}&appid=${apiKey}`
+            `https://api.openweathermap.org/data/2.5/weather?q=${searchCity.value}&appid=${apiKey}&units=metric`
         );
         const data = await response.json();
         if (response.ok) {
