@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Actions\Recovery\Password;
+namespace App\Actions\Auth\Recovery\Password;
 
 use Illuminate\Http\Request;
 use Inertia\Inertia;
